@@ -83,6 +83,20 @@
     font-size: 24px;
     font-weight: 400;
   }
+@media (max-width:768px) {
+  body{
+    width: 100vw;
+  }
+  .container {
+    width: 100vw;
+    height: 100vh;
+    margin-top: 0px;
+  } 
+    .top-bar input {
+    width: 250px;
+  
+  }
+}
   
   .text {
     font-size: 20px;
